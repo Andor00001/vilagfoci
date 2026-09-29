@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Címlap – {{name}}</title>
+  <meta name="description" content="Magyar nyelvű világfoci-magazin. Élő eredmény csak ott, ahol a feed tényleg ad állást.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="config.js"></script>
+</head>
+<body data-page="home" data-needs-matches>
+  <div class="pitch-rule"></div>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-kicker">Világfoci · magyarul</span>
+        <span class="brand-name" data-site-name>A név még nincs meg</span>
+      </a>
+      <nav class="nav"><a href="index.html" aria-current="page">Címlap</a><a href="eredmenyek.html">Eredmények</a><a href="kovetkezo.html">Következő</a><a href="cikkek.html">Cikkek</a><a href="atvetel.html">Átvétel</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    
+    <p class="kicker">Címlap · 2026. szeptember 29.</p>
+    <h1>Pálya, nem sablon.</h1>
+    <p class="deck">Világfoci és magyar foci egy lapon. Az eredménycsík csak azt mutatja, amit a feed az elmúlt 24 órából visszaad. Ha nincs állás, üresen hagyjuk.</p>
+    <p class="live-note" data-feed-status>Az eredmények töltődnek a feedből…</p>
+    <div class="section-head"><h2>Elmúlt 24 óra</h2><a href="eredmenyek.html">Összes és kereső</a></div>
+    <div class="score-strip" data-score-strip></div>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Következő mérkőzés</p>
+        <div class="next-box" data-next-hero></div>
+        <p class="meta">A szerkezet ötlete: a BBC Sport focioldalának címlapja (vezéranyag + friss lista) és a OneFootball aznapi meccslistája (időpont, és állás csak ha lejátszották). A látvány nem másolat.</p>
+      </div>
+      <figure class="hero-figure">
+        <img src="img/pitch.jpg" alt="Üres focipálya, kapuval">
+        <figcaption class="credit">Fotó: <a href="https://unsplash.com/photos/1431324155629-1a6deb1dec8d">Unsplash</a></figcaption>
+      </figure>
+    </section>
+    <section class="grid-2">
+      <div>
+        <div class="section-head"><h2>Világ</h2><a href="cikkek.html">Elemzések</a></div>
+        <div data-headlines></div>
+      </div>
+      <div>
+        <div class="section-head"><h2>Magyar</h2></div>
+        <article class="panel" style="padding:14px 16px">
+          <span class="tag">U21</span>
+          <h3><a href="cikk.html?id=u21-varazdin">Varazsdon 3–1 a horvát U21 javára</a></h3>
+          <p>A horvát szövetség és a TheSportsDB szerint szeptember 26-án. NB I-állás ezen az oldalon nincs: kulcs nélküli magyar bajnoki feedet nem találtunk.</p>
+          <p class="empty">Magyar klubfoci: üres állapot. Nem találunk ki OTP Bank Liga-eredményt. Ha később lesz kulcs (football-data.org) vagy nyílt feed, ide köthető.</p>
+        </article>
+        <figure class="hero-figure" style="margin-top:12px">
+          <img src="img/crowd.jpg" alt="Telt lelátó egy stadionban">
+          <figcaption class="credit">Fotó: <a href="https://unsplash.com/photos/1522778119026-d647f0596c20">Unsplash</a></figcaption>
+        </figure>
+      </div>
+    </section>
+    <div class="section-head"><h2>Elemzések</h2><a href="cikkek.html">Mind</a></div>
+    <div class="cards" data-article-list></div>
+
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>Eredmény csak feedből: OpenLigaDB (kulcs nélkül) és a TheSportsDB ingyenes szelete. A football-data.org tokent kér, onnan nincs meccs. Kitalált gól nincs. A képek Unsplash-ről vannak, a forrás a kép alatt.</p>
+      <p>A név cseréje: <code>config.js</code> 3. sor, a <code>name</code> mező.</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

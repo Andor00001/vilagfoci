@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cikkek – {{name}}</title>
+  <meta name="description" content="Magyar nyelvű világfoci-magazin. Élő eredmény csak ott, ahol a feed tényleg ad állást.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="config.js"></script>
+</head>
+<body data-page="articles" >
+  <div class="pitch-rule"></div>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-kicker">Világfoci · magyarul</span>
+        <span class="brand-name" data-site-name>A név még nincs meg</span>
+      </a>
+      <nav class="nav"><a href="index.html">Címlap</a><a href="eredmenyek.html">Eredmények</a><a href="kovetkezo.html">Következő</a><a href="cikkek.html" aria-current="page">Cikkek</a><a href="atvetel.html">Átvétel</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    
+    <p class="kicker">Elemzés · világ · magyar</p>
+    <h1>Három váz, mind forrásolt</h1>
+    <p class="deck">Ha egy állításhoz nincs link, az nem kerül fel. Üres rovat jobb, mint egy kitalált meccs. Most három rövid váz van, mert mindegyik mondata mögött feed vagy cikk áll.</p>
+    <div class="cards" data-article-list></div>
+
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>Eredmény csak feedből: OpenLigaDB (kulcs nélkül) és a TheSportsDB ingyenes szelete. A football-data.org tokent kér, onnan nincs meccs. Kitalált gól nincs. A képek Unsplash-ről vannak, a forrás a kép alatt.</p>
+      <p>A név cseréje: <code>config.js</code> 3. sor, a <code>name</code> mező.</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

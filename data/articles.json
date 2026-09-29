@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "id": "nl-a-csoport",
+      "kicker": "Elemzés",
+      "title": "Franciaország hat ponton, Törökország még nulla – az A-csoport két forduló után",
+      "deck": "Csak a lezárt Nemzetek Ligája-meccsek állása. A még le nem játszott találkozókhoz nem írunk eredményt.",
+      "image": "img/pitch.jpg",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://unsplash.com/photos/1431324155629-1a6deb1dec8d",
+      "published": "2026-09-29",
+      "paragraphs": [
+        "Az UEFA Nemzetek Ligája A-csoportjában 2026. szeptember 29-én délutánig négy meccs ért véget az OpenLigaDB szerint. Szeptember 25-én Rómában Olaszország–Belgium 0–2, İzmitben Törökország–Franciaország 0–1 lett a végeredmény.",
+        "Szeptember 28-án Brüsszelben Belgium–Franciaország 0–1, Bursában Törökország–Olaszország 1–4. Mind a négy meccsnél az OpenLigaDB „Endergebnis” mezőjét vesszük, nem becslést.",
+        "Ebből a négy lezárt meccsből Franciaországnak 6 pontja és +2-es gólkülönbsége van (2 rúgott, 0 kapott). Belgiumnak és Olaszországnak 3-3 pontja van. Törökországnak 0 pontja és 1–5-ös gólaránya. A 3 pontos holtversenyt nem rendezzük hivatalos sorrenddé: a Nemzetek Ligája holtversenyszabályát ez a váz nem számolja ki.",
+        "Október 2-án Belgium–Törökország és Franciaország–Olaszország is a naptárban van. Ezeknek a feedben még nincs eredménye, ezért itt sem szerepel állás."
+      ],
+      "sources": [
+        {"label": "OpenLigaDB, Olaszország–Belgium 0–2 (85212)", "url": "https://api.openligadb.de/getmatchdata/85212"},
+        {"label": "OpenLigaDB, Törökország–Franciaország 0–1 (85213)", "url": "https://api.openligadb.de/getmatchdata/85213"},
+        {"label": "OpenLigaDB, Belgium–Franciaország 0–1 (85214)", "url": "https://api.openligadb.de/getmatchdata/85214"},
+        {"label": "OpenLigaDB, Törökország–Olaszország 1–4 (85215)", "url": "https://api.openligadb.de/getmatchdata/85215"}
+      ]
+    },
+    {
+      "id": "anglia-spanyolorszag",
+      "kicker": "Világ",
+      "title": "Spanyolország Londonban nyert, a csehországi visszavágó még nincs lejátszva",
+      "deck": "Egy lezárt C-csoportos meccs, és ami ma este még csak időpont.",
+      "image": "img/night.jpg",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://unsplash.com/photos/1489944440615-453fc2b6a9a9",
+      "published": "2026-09-29",
+      "paragraphs": [
+        "2026. szeptember 26-án Londonban Anglia–Spanyolország 2–3 lett, félidőben 2–1 állt az OpenLigaDB szerint. Ugyanaznap Prágában Csehország–Horvátország 1–2 végződött.",
+        "A következő, már kiírt meccsek szeptember 29-én 20:45-kor (budapesti idő) kezdődnek: Csehország–Anglia Prágában és Spanyolország–Horvátország Sevillában. A feed ezekhez nem adott gólt, ezért az oldal sem ír ki állást.",
+        "A BBC Sport aznapi címe szerint O’Reilly kihagyja a csehországi meccset, Konsa viszont a keretben van. Ennyit veszünk át a hírből: a cikket nem másoljuk ide, a részletek a BBC oldalán vannak."
+      ],
+      "sources": [
+        {"label": "OpenLigaDB, Anglia–Spanyolország 2–3 (85237)", "url": "https://api.openligadb.de/getmatchdata/85237"},
+        {"label": "OpenLigaDB, Csehország–Horvátország 1–2 (85236)", "url": "https://api.openligadb.de/getmatchdata/85236"},
+        {"label": "OpenLigaDB, Csehország–Anglia, még nincs eredmény (85238)", "url": "https://api.openligadb.de/getmatchdata/85238"},
+        {"label": "BBC Sport: O’Reilly kihagyja a csehországi meccset, Konsa a keretben", "url": "https://www.bbc.co.uk/sport/football/articles/cj62eyx9grzxo"}
+      ]
+    },
+    {
+      "id": "u21-varazdin",
+      "kicker": "Magyar",
+      "title": "Varazsdon a horvát U21 3–1-re nyert a magyarok ellen",
+      "deck": "NB I-eredményt nem írunk: ahhoz nincs kulcs nélküli élő feedünk. Ez a válogatott meccs forrásolt.",
+      "image": "img/ball.jpg",
+      "imageCredit": "Unsplash",
+      "imageSource": "https://unsplash.com/photos/1574629810360-7efbbe195018",
+      "published": "2026-09-29",
+      "paragraphs": [
+        "A horvát szövetség beszámolója szerint 2026. szeptember 26-án Varazsdon a horvát U21 3–1-re legyőzte a magyar U21-et az Európa-bajnoki selejtezőn. A gólok: Adriano Jagušić a 25., a 60. és a 85. percben, Máté Tuboly a 49. percben, büntetőből.",
+        "A horvát beszámoló azt is írja, hogy a győzelemmel, és az ugyanaznapi ukrán–török 2–2 miatt, a horvátok csoportelsőként kijutottak a 2027-es U21-Európa-bajnokságra, amelyet Albánia és Szerbia rendez.",
+        "Ugyanez a 3–1-es végeredmény szerepel a TheSportsDB 2026-09-26-i foci napján is (Croatia U21–Hungary U21, FT). Magyar klubmeccset, OTP-bankligás állást ez a váz nem tartalmaz: ilyen kulcs nélküli feedet nem találtunk, és nem pótoljuk kitalált eredménnyel."
+      ],
+      "sources": [
+        {"label": "Horvát labdarúgó-szövetség, Croatia–Hungary 3–1", "url": "https://hns.team/en/news/31787/croatia-secure-place-at-the-european-championship/"},
+        {"label": "TheSportsDB, 2026-09-26 foci nap (ingyenes tesztkulcs, napi szelet)", "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-09-26&s=Soccer"}
+      ]
+    }
+  ]
+}
